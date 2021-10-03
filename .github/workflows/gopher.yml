@@ -18,6 +18,5 @@ jobs:
           username: ${{ secrets.THEUSER }}
           password: ${{ secrets.THEPASSWORD }}
           port: ${{ secrets.THEPORT }}
-          key: ${{ secrets.THEKEY }}
           source: "/home/runner/work/gopherhole/gopherhole"
           target: "/var/gopher"
