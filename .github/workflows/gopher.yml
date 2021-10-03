@@ -18,5 +18,5 @@ jobs:
           username: ${{ secrets.THEUSER }}
           password: ${{ secrets.THEPASSWORD }}
           port: ${{ secrets.THEPORT }}
-          source: "/home/runner/work/gopherhole/gopherhole,!.github/*,!.git/*"
+          source: "*,!.github/*,!.git/*"
           target: "/var/gopher"
